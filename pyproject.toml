@@ -1,0 +1,81 @@
+[project]
+name = "pywuzzuf"
+version = "0.0.0"
+description = "Async Python client for the Wuzzuf job-search API"
+readme = "README.md"
+authors = [
+    { name = "Hossam Elshabory", email = "hossam.elshabory97@gmail.com" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = ["backoff>=2.2.1", "curl-cffi>=0.14.0", "pydantic>=2.12.5"]
+
+keywords = ["wuzzuf", "jobs", "api", "scraper", "egypt", "async", "client"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: AsyncIO",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/hossam-elshabory/pywuzzuf"
+Documentation = "https://hossam-elshabory.github.io/pywuzzuf/"
+Repository = "https://github.com/hossam-elshabory/pywuzzuf.git"
+Issues = "https://github.com/hossam-elshabory/pywuzzuf/issues"
+Changelog = "https://github.com/hossam-elshabory/pywuzzuf/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["uv_build>=0.11.2,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+    "ruff>=0.15.7",
+    "zensical>=0.0.28",
+    "commitizen>=4.13.9",
+    "ty>=0.0.25",
+    "pytest-cov>=7.1.0",
+]
+
+[tool.ruff]
+line-length = 104
+
+[tool.ruff.lint]
+ignore = [
+    # --- Formatting / Line Length ---
+    "E501",
+
+    "D105", # Missing docstring in magic method (e.g., __repr__)
+    "D200", # One-line docstring should fit on one line
+    "D107", # Missing docstring in __init__
+    "D102", # Missing docstring in public method (@property getters)
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+select = ["E", "F", "I", "D"]
+# Ignore ALL documentation rules inside the tests directory
+"tests/**" = ["D"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version_scheme = "semver"
+version_provider = "uv"
+update_changelog_on_bump = true
+major_version_zero = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+markers = ["live: mark test as live API test"]

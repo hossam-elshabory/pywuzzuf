@@ -1,0 +1,170 @@
+{
+  "data": [
+    {
+      "type": "company",
+      "id": "1001",
+      "attributes": {
+        "uniqueId": "c698b125-9373-11ea-add1-062a4819e772",
+        "name": "Test New",
+        "legalName": null,
+        "logo": null,
+        "slug": "Test-New-Egypt-1001",
+        "description": "",
+        "specialties": [],
+        "workIndustries": [
+          {
+            "id": 28,
+            "name": "Information Technology Services",
+            "browsePage": "a/Information-Technology-Services-Jobs-in-Egypt"
+          }
+        ],
+        "hiringFor": null,
+        "website": null,
+        "facebookPage": null,
+        "twitterAccount": null,
+        "linkedinProfile": null,
+        "blog": null,
+        "onlinePresence": {
+          "facebook": null,
+          "twitter": null,
+          "linkedin": null,
+          "blog": null,
+          "website": null,
+          "instagram": null,
+          "youtube": null,
+          "vimeo": null,
+          "behance": null
+        },
+        "establishedYear": "",
+        "uniqueName": "Test New -w- 1001",
+        "taxId": null,
+        "street": null,
+        "isPersonal": false,
+        "buildingNumber": null,
+        "area": null,
+        "publicStatus": {
+          "id": 3,
+          "name": "Not verified"
+        },
+        "statusUpdatedAt": null,
+        "createdAt": "05/27/2012 16:19:14",
+        "perks": []
+      },
+      "relationships": {
+        "workIndustries": {
+          "data": [
+            {
+              "type": "companyWorkIndustry",
+              "id": "1242"
+            }
+          ]
+        },
+        "featuredLogos": {
+          "data": []
+        },
+        "country": {
+          "data": {
+            "type": "country",
+            "id": "56"
+          }
+        },
+        "city": {
+          "data": null
+        },
+        "size": {
+          "data": null
+        },
+        "type": {
+          "data": null
+        }
+      },
+      "links": {
+        "self": "https://wuzzuf.net/api/company/1001",
+        "profile": "jobs/careers/Test-New-Egypt-1001"
+      }
+    },
+    {
+      "type": "company",
+      "id": "1002",
+      "attributes": {
+        "uniqueId": "c698b3d1-9373-11ea-add1-062a4819e772",
+        "name": "United OFOQ",
+        "legalName": null,
+        "logo": null,
+        "slug": "United-OFOQ-Egypt-1002",
+        "description": "",
+        "specialties": [],
+        "workIndustries": [
+          {
+            "id": 28,
+            "name": "Information Technology Services",
+            "browsePage": "a/Information-Technology-Services-Jobs-in-Egypt"
+          }
+        ],
+        "hiringFor": null,
+        "website": "www.unitedofoq.com",
+        "facebookPage": null,
+        "twitterAccount": null,
+        "linkedinProfile": null,
+        "blog": null,
+        "onlinePresence": {
+          "facebook": null,
+          "twitter": null,
+          "linkedin": null,
+          "blog": null,
+          "website": "www.unitedofoq.com",
+          "instagram": null,
+          "youtube": null,
+          "vimeo": null,
+          "behance": null
+        },
+        "establishedYear": "",
+        "uniqueName": "United OFOQ -w- 1002",
+        "taxId": null,
+        "street": null,
+        "isPersonal": false,
+        "buildingNumber": null,
+        "area": null,
+        "publicStatus": {
+          "id": 1,
+          "name": "Verified"
+        },
+        "statusUpdatedAt": null,
+        "createdAt": "05/27/2012 17:00:55",
+        "perks": []
+      },
+      "relationships": {
+        "workIndustries": {
+          "data": [
+            {
+              "type": "companyWorkIndustry",
+              "id": "1243"
+            }
+          ]
+        },
+        "featuredLogos": {
+          "data": []
+        },
+        "country": {
+          "data": {
+            "type": "country",
+            "id": "56"
+          }
+        },
+        "city": {
+          "data": null
+        },
+        "size": {
+          "data": null
+        },
+        "type": {
+          "data": null
+        }
+      },
+      "links": {
+        "self": "https://wuzzuf.net/api/company/1002",
+        "profile": "jobs/careers/United-OFOQ-Egypt-1002"
+      }
+    }
+  ]
+}

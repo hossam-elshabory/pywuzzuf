@@ -1,0 +1,114 @@
+name: Publish to PyPI
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup
+
+      - name: Build
+        run: uv build
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: dist/
+
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          if-no-files-found: error
+
+  test-publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: test-pypi
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Publish to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+
+  smoke-test:
+    needs: [build, test-publish]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Wait for TestPyPI index
+        run: sleep 60
+
+      - name: Install from Test PyPI
+        run: |
+          pip install \
+            --index-url https://test.pypi.org/simple/ \
+            --extra-index-url https://pypi.org/simple/ \
+            pywuzzuf
+        env:
+          PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+      - name: Verify import and version
+        run: |
+          python - <<'EOF'
+          import pywuzzuf
+
+          version = pywuzzuf.__version__
+          assert version and version != "0.0.0+local", (
+              f"Unexpected version string from installed package: {version!r}"
+          )
+
+          from pywuzzuf import WuzzufClient, SyncWuzzufClient
+          from pywuzzuf import SearchFilters, DateRange, AbsoluteDateFilter
+          from pywuzzuf import PaginationSignal, PaginationResult
+          from pywuzzuf import WuzzufAPIError, BotDetectionError
+
+          print(f"Smoke test passed — pywuzzuf {version} installed cleanly.")
+          EOF
+
+  pypi-publish:
+    needs: smoke-test
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+      attestations: write
+
+    steps:
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          attestations: true

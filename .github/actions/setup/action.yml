@@ -1,0 +1,42 @@
+name: Setup Python + uv
+description: Install Python, uv, restore cache, and sync dev dependencies.
+
+inputs:
+  python-version:
+    description: Python version to install
+    required: false
+    default: "3.12"
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v4
+      with:
+        enable-cache: false
+
+    - name: Get uv cache dir
+      id: uv-cache
+      shell: bash
+      run: echo "dir=$(uv cache dir)" >> $GITHUB_OUTPUT
+
+    - name: Restore uv cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ steps.uv-cache.outputs.dir }}
+        key: uv-${{ runner.os }}-py${{ inputs.python-version }}-${{ hashFiles('uv.lock', 'pyproject.toml') }}
+        restore-keys: |
+          uv-${{ runner.os }}-py${{ inputs.python-version }}-
+
+    - name: Install dependencies
+      shell: bash
+      run: uv sync --dev
+
+    - name: Prune uv cache
+      shell: bash
+      run: uv cache prune --ci

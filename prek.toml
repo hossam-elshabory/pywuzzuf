@@ -1,0 +1,52 @@
+# prek.toml
+# Recommended hooks for production Python projects
+
+[[repos]]
+repo = "https://github.com/pre-commit/pre-commit-hooks"
+rev = "v6.0.0"
+hooks = [
+    { id = "trailing-whitespace" }, # Trims trailing whitespace
+    { id = "end-of-file-fixer" }, # Ensures files end with newline
+    { id = "check-toml" }, # Validates TOML files
+    { id = "check-added-large-files", args = [
+        "--maxkb=500",
+    ] }, # Prevents large commits
+    { id = "check-merge-conflict" }, # Checks for merge conflict strings
+    { id = "detect-private-key" }, # Detects accidentally committed private keys
+    { id = "check-ast" }, # Validates Python syntax
+    { id = "debug-statements" }, # Checks for pdb/breakpoint() statements
+    { id = "name-tests-test", exclude = "tests/scripts/capture_fixtures.py" }, # Ensures test files are named correctly, excluding scripts
+    { id = "no-commit-to-branch", args = [
+        "--branch",
+        "main",
+    ] }, # Prevents direct commits to main
+]
+
+[[repos]]
+repo = "https://github.com/astral-sh/ruff-pre-commit"
+rev = "v0.15.7"
+hooks = [
+    { id = "ruff", args = ["--fix"] }, # Linter with auto-fixes
+    { id = "ruff-format" },            # Formatter
+]
+
+[[repos]]
+repo = "local"
+hooks = [
+    { id = "ty", name = "ty type checker", entry = "uv run ty check", language = "system", types = [
+        "python",
+    ], pass_filenames = false },
+]
+
+[[repos]]
+repo = "https://github.com/commitizen-tools/commitizen"
+rev = "v4.13.9"
+
+hooks = [
+    { id = "commitizen", stages = [
+        "commit-msg",
+    ] },
+    { id = "commitizen-branch", stages = [
+        "pre-push",
+    ] },
+]

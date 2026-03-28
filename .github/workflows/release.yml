@@ -1,0 +1,60 @@
+name: Release Bot
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    if: "!startsWith(github.event.head_commit.message, 'bump:')"
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - uses: ./.github/actions/setup
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump version
+        id: cz
+        run: |
+          # Gracefully exit if no conventional commits require a version bump
+          if ! uv run cz bump --yes --changelog; then
+            echo "No feat/fix commits found. Skipping release."
+            echo "version=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "version=$(uv run cz version --project)" >> $GITHUB_OUTPUT
+
+      - name: Push
+        if: steps.cz.outputs.version != ''
+        run: |
+          git push origin main
+          git push origin v${{ steps.cz.outputs.version }}
+
+      - name: Extract release notes
+        if: steps.cz.outputs.version != ''
+        run: |
+          awk '/^## /{if (p) exit; p=1} p' CHANGELOG.md > release-notes.md
+
+      - name: Create GitHub release
+        if: steps.cz.outputs.version != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.RELEASE_TOKEN }}
+          tag_name: v${{ steps.cz.outputs.version }}
+          body_path: release-notes.md

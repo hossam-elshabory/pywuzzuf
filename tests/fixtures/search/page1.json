@@ -1,0 +1,1036 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Prometeon tyres group \u2013 Egypt"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "BackendStrong knowledge of PythonExperience developing backend services and REST APIsExperience with <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "Develop and maintain <em class=\"search-highlight\">Python</em> backend applicationsDesign and implement REST APIsWrite clean, maintainable"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "job_title",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em> Back End developer"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "de12d412-2fd9-468c-ac99-6b8dc41cf887",
+      "links": {},
+      "meta": {
+        "score": 14.446682
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Agency"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "We are looking for a highly detail-oriented <em class=\"search-highlight\">Python</em> Software Engineer to help design, implement, review",
+              "for someone with excellent English communication, solid judgment, and strong hands-on experience with <em class=\"search-highlight\">Python</em>",
+              "communicating technical decisions in a precise, organized way.You will work closely on tasks involving <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "job_title",
+            "snippets": [
+              "Software Engineer - <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "513aa06c-1d29-4d3b-adb2-51459553b453",
+      "links": {},
+      "meta": {
+        "score": 13.272556
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Advanced control"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "5+ years of professional development experienceIn-depth knowledge of <em class=\"search-highlight\">Python</em> (Django / FastAPI is preferred"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "We are looking for a highly skilled Senior Full-Stack Developer with in-depth knowledge of <em class=\"search-highlight\">Python</em> and"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "job_title",
+            "snippets": [
+              "Senior <em class=\"search-highlight\">Python</em> Developer"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "7176ef4d-4461-4d7c-8b5a-6dcfeba25e30",
+      "links": {},
+      "meta": {
+        "score": 13.016948
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "AZM Squad"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>",
+              "<em class=\"search-highlight\">Python</em> Back-end Developer"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "5+ years of experience as a <em class=\"search-highlight\">Python</em> Back-end Developer.Strong experience with Django, Flask, and/or FastAPI.Mandatory"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "Design and develop scalable backend applications using <em class=\"search-highlight\">Python</em>.Build and maintain APIs using Django, Flask"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "job_title",
+            "snippets": [
+              "Senior <em class=\"search-highlight\">Python</em> Developer"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "393e460f-3dec-458c-a7b7-622a809c4549",
+      "links": {},
+      "meta": {
+        "score": 11.0537195
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Software House Solution "
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "2-7 years of professional experience in backend development with a focus on Django and <em class=\"search-highlight\">Python</em>.Proven"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "Design, develop, and maintain robust RESTful APIs using Django and <em class=\"search-highlight\">Python</em> to support scalable web applications.Collaborate"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "job_title",
+            "snippets": [
+              "Mid Level Rest API Django <em class=\"search-highlight\">Python</em> Developer"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "72543e44-21ed-4d3c-b445-62b2ace05f69",
+      "links": {},
+      "meta": {
+        "score": 9.104733
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "ecoSAS International"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              ". \uf0b7\u00a0Strong proficiency in <em class=\"search-highlight\">Python</em> and Web Services."
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "Key Responsibilities \uf0b7\u00a0Develop and maintain custom Odoo modules (<em class=\"search-highlight\">Python</em>, XML, JavaScript). \uf0b7\u00a0Build and"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "e396e0e0-f49d-4677-ba02-c0db89f46f22",
+      "links": {},
+      "meta": {
+        "score": 8.313184
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "SMART ICON EG"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "strong understanding of Odoo ERP modules and their configuration.Technical Proficiency: Familiarity with <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "business applications.Solid knowledge of accounting software and financial processes.Familiarity with <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "ca9dfc69-2067-473b-b1b8-d482b614360f",
+      "links": {},
+      "meta": {
+        "score": 8.30465
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Ibn Sina Pharma"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Information Technology, or a related field is highly desirable.Technical Skills: Proficiency in SQL and <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "analysts to gather and document business requirements.Conduct thorough data analysis using SQL and <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "0ebc626b-fa6c-4e6c-bdb6-c332e2e08297",
+      "links": {},
+      "meta": {
+        "score": 8.274886
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "KZ for Pesticides and Chemicals. "
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Science, Information Technology, or a related field is highly desirable.Technical Skills: Proficiency in <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "475ff9d5-f518-45f4-8fcc-998c6898290a",
+      "links": {},
+      "meta": {
+        "score": 8.26135
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Seha Care"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Strong\u00a0<em class=\"search-highlight\">Python</em> programming skillsExperience working with\u00a0Large Language Models (LLMs)Hands-on experience"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "LLM-powered AI servicesBuilding\u00a0RAG architectures for medical knowledge retrievalDeveloping AI APIs using\u00a0<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "c5513c83-201e-49df-9ff6-9885de203bd2",
+      "links": {},
+      "meta": {
+        "score": 8.248923
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Egabi FSI "
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "experience as a Data Scientist or in a similar analytical role.Proficiency in programming languages such as <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "31474780-e5a8-495e-a49c-802c635b7bc5",
+      "links": {},
+      "meta": {
+        "score": 8.238232
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Exab"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Computer Science, Engineering, Data Science, or a related field.Technical Skills: Strong proficiency in <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "applications leveraging LLMs.Conduct research and experiment with new AI/ML models and algorithms.Utilize <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "704cd9f8-dd2b-4c43-a306-e78d40513be8",
+      "links": {},
+      "meta": {
+        "score": 8.212941
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Docusign"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "capacity.Comfortable working with web-based environments (HTTP, JSON, IIS, HTML, CSS) and at least some of: XML, C#, <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "d000a3c6-43fe-48d6-a7fc-4ce558bd9e2f",
+      "links": {},
+      "meta": {
+        "score": 8.20314
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Oliv"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "ff1517c1-7691-4d07-aafa-372fd0363e00",
+      "links": {},
+      "meta": {
+        "score": 8.203072
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "MATGR For Engineering And Trading"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Technical: Odoo framework, <em class=\"search-highlight\">Python</em>, ORM, API, JavaScript, XML, HTML.Functional: Hands-on experience with"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "f641ad6c-262e-416a-9b7b-be70d3d31d2d",
+      "links": {},
+      "meta": {
+        "score": 8.1489725
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "AzkaTech"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "in Odoo development.Bachelor\u2019s degree in Computer Science or a related field.Strong proficiency in <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "description",
+            "snippets": [
+              "and business requirements into scalable technical solutions.Build and maintain backend logic using <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "a8aa6445-b29f-47b2-9500-badfb36cd549",
+      "links": {},
+      "meta": {
+        "score": 8.125019
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Tafeel"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Strong <em class=\"search-highlight\">Python</em> programming skillsExperience with LLMs, RAG architectures, and vector databasesExperience"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "df114a5b-436b-4242-8956-85a5e6f02619",
+      "links": {},
+      "meta": {
+        "score": 8.106568
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Raya Distribution"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Technical RequirementsMust Have:Strong knowledge of <em class=\"search-highlight\">Python</em> (Pandas, NumPy, Scikit-learn, etc.)Experience"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "3b1c43a0-30d8-4892-ac4b-968911bb8317",
+      "links": {},
+      "meta": {
+        "score": 8.050704
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "Agency"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "assessmentAbility to understand and evaluate software engineering skills across common stacks such as <em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "bd452e94-4a70-403b-8013-c7b910a6a78f",
+      "links": {},
+      "meta": {
+        "score": 8.043265
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    },
+    {
+      "attributes": {
+        "computedFields": [
+          {
+            "name": "distance",
+            "value": [
+              -1.0
+            ]
+          },
+          {
+            "name": "company_name",
+            "value": [
+              "National technology group"
+            ]
+          }
+        ],
+        "highlightedFields": [
+          {
+            "name": "skills",
+            "snippets": [
+              "<em class=\"search-highlight\">Python</em>"
+            ],
+            "value": [
+              "Python"
+            ]
+          },
+          {
+            "name": "requirements",
+            "snippets": [
+              "Strong knowledge of Excel, <em class=\"search-highlight\">Python</em>, or R for data analysis.\u00a0"
+            ],
+            "value": [
+              "Python"
+            ]
+          }
+        ]
+      },
+      "id": "f7ed5c75-98f7-4c1b-968b-ffb456d82536",
+      "links": {},
+      "meta": {
+        "score": 7.94023
+      },
+      "relationships": {},
+      "type": "talentSearch"
+    }
+  ],
+  "meta": {
+    "totalResultsCount": 190
+  }
+}
