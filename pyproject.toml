@@ -1,6 +1,6 @@
 [project]
 name = "pywuzzuf"
-version = "0.0.0"
+version = "0.1.0"
 description = "Async Python client for the Wuzzuf job-search API"
 readme = "README.md"
 authors = [
